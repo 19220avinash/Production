@@ -41,3 +41,7 @@ Thumbs.db
 
 # vscode
 .vscode/
+node_modules/
+.env
+build/
+dist/
