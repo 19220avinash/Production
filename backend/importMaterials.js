@@ -3,7 +3,7 @@ const XLSX = require("xlsx");
 const Material = require("./models/Material");
 
 // connect DB
-mongoose.connect("mongodb://127.0.0.1:27017/RFID");
+mongoose.connect("mongodb+srv://avinash:avi123@college.ifxt0px.mongodb.net/?retryWrites=true&w=majority&appName=college");
 
 const workbook = XLSX.readFile("Paper Specs.xlsx");
 const sheet = workbook.Sheets[workbook.SheetNames[0]];

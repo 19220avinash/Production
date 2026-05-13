@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const XLSX = require("xlsx");
 
-mongoose.connect("mongodb://127.0.0.1:27017/RFID");
+mongoose.connect("mongodb+srv://avinash:avi123@college.ifxt0px.mongodb.net/?retryWrites=true&w=majority&appName=college");
 
 // ✅ USE SAME MODEL NAME
 const locationSchema = new mongoose.Schema({
