@@ -3,7 +3,7 @@ const XLSX = require("xlsx");
 const Material = require("./models/Material");
 
 // connect DB
-mongoose.connect("mongodb+srv://avinash:avi123@college.ifxt0px.mongodb.net/?retryWrites=true&w=majority&appName=college");
+mongoose.connect("mongodb+srv://avinash:Avinash123@college.ifxt0px.mongodb.net/");
 
 const workbook = XLSX.readFile("Paper Specs.xlsx");
 const sheet = workbook.Sheets[workbook.SheetNames[0]];

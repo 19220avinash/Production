@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const XLSX = require("xlsx");
 
-mongoose.connect("mongodb+srv://avinash:avi123@college.ifxt0px.mongodb.net/?retryWrites=true&w=majority&appName=college");
+mongoose.connect("mongodb+srv://avinash:Avinash123@college.ifxt0px.mongodb.net/");
 
 const ItemSchema = new mongoose.Schema({
   itemCode: String,
